@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #282a36;
+  color: #ccc;
+  font-size: 1rem;
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 3rem 25%;
+}
+
+p {
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+a {
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.intro {
+  font-size: 1.1rem;
+}
+
+.breakline {
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.project-container {
+  margin-bottom: 3rem;
+}
+
+.project-container .project-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.project-container p {
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+
+.project-container {
+  background: #1f2029;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.project-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-container img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.project-container p:last-of-type {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.project-container a:last-of-type {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  background: #44475a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.project-container a:last-of-type:hover {
+  background: #6272a4;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    margin: 3rem 5%;
+  }
+
+  .project-container:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
