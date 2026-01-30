@@ -11,9 +11,28 @@ body {
   margin: 3rem 25%;
 }
 
+/* Heading */
+h1 {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.breakline {
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
 p {
   margin: 0 0 1rem;
   line-height: 1.5;
+}
+
+.intro {
+  font-size: 1.1rem;
+}
+
+ul {
+  padding-left: 17px;
 }
 
 a {
@@ -22,32 +41,10 @@ a {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 2.2rem;
-  color: #fff;
-}
-
-.intro {
-  font-size: 1.1rem;
-}
-
-.breakline {
-  border: 1px solid #ccc;
-  border-bottom: none;
-}
-
-.project-container {
-  margin-bottom: 3rem;
-}
-
-.project-container .project-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.project-container p {
-  margin: 0 0 0.5rem;
-  line-height: 1.5;
+/* Projects */
+.project-heading {
+  font-size: 1.25rem;
+  margin: 2rem 0;
 }
 
 .project-container {
@@ -59,7 +56,6 @@ h1 {
     transform 0.2s ease,
     box-shadow 0.2s ease;
 }
-
 .project-container:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
@@ -71,6 +67,15 @@ h1 {
   display: block;
 }
 
+.project-container .project-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.project-container p {
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
 .project-container p:last-of-type {
   font-size: 0.9rem;
   color: #aaa;
